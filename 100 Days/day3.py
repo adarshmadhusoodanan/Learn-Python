@@ -1,5 +1,5 @@
 #******** Day 3 of 100 days of coding *******
-# conditional statements
+# conditional statements (if,elif,else)
 # Treasure Island
 
 
@@ -48,3 +48,4 @@ if choice1 == "left":
     print("You get attacked by an angry trout. \n Game Over.")
 else:
   print("You fell into a hole. Game Over.")
+
