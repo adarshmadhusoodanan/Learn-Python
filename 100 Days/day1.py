@@ -1,5 +1,5 @@
 #******** Day 1 of 100 days of coding *******
-
+# variables, input, output
 # Full name generator
 
 print("Welcome to the Full Name Generator.")

@@ -1,5 +1,5 @@
 #******** Day 2 of 100 days of coding *******
-
+# arithmetic operations
 # Tip Calculator
 
 print("Welcome to the tip calculator")
