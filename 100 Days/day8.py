@@ -1,5 +1,6 @@
 #******** Day 8 of 100 days of coding *******
 # caesar cipher project
+# function, while loop, logic
 
 
 #logo

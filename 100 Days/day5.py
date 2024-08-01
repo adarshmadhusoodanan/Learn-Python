@@ -1,5 +1,5 @@
 #******** Day 5 of 100 days of coding *******
-# random module
+# List,random module
 
 #Password Generator Project
 import random
