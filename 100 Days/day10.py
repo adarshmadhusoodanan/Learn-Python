@@ -1,5 +1,6 @@
-#******** Day 10 of 100 days of coding *******
+#******** Day 10 of 100 days of coding ********
 # calculator project
+
 # functions, recursion
 
 import os
