@@ -75,17 +75,17 @@ def game():
             print(f"Your card: {user}, final score:{user_sum}")
             print(f"computer card: {computer}, final score:{computer_sum}")
             result=check(user_sum,computer_sum)
-            return result,user_sum
+            return result
     else:
         result=check(user_sum,computer_sum)      
 
 
     
-    return result,user_sum
+    return result
     
 
 def play():
-    result,user_sum=game()
+    result=game()
     if result == 0:
         print("You Lost")  
     elif result== 1:
@@ -95,14 +95,18 @@ def play():
     elif result == 3:
         print("You Win")
     elif result == 4:
-        print("User Lost")
+        print("You Lost")
 
 
-start = input("Do you want to play a game of Blackjack? Type 'y' or 'n':")
 
-if start =="y":
-    print(logo)
-    play()
     
+def main():
+    start = input("Do you want to play a game of Blackjack? Type 'y' or 'n':")
+
+    if start =="y":
+        print(logo)
+        play()
+        main()
 
 
+main()
